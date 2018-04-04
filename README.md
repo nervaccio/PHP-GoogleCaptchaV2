@@ -42,3 +42,9 @@ function checkGoogleCaptchaV2($endpoint, array $params)
 
 #### Note
 Remember that in the [postdata.php](/postdata.php) is implemented only the first step of validation, the captcha. So if you like to use this scaffolding you need to add others validations codes, like check for valid email and so on.
+
+#### License
+MIT
+
+#### Disclaimer
+I am not a native English speaker, so there are tons of mistakes in the text for sure - I beg your pardon for them. Please, feel free to PR with corrections.
