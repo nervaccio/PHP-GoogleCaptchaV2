@@ -1,7 +1,7 @@
 <?php
 function checkGoogleCaptchaV2($endpoint, array $params)
 {
-	if (empty($params['g-response'])) {
+	if (empty($params['g-recaptcha'])) {
 		return FALSE;
 	}
 
